@@ -7,7 +7,7 @@ header,main,footer{max-width: 991px; margin: 0 auto;}
 ul{list-style: none;}
 a{text-decoration: none;color: black;}
 img{object-fit: cover;}
-h2{font-size:19.5px;margin: 35px 0 5px 25px;}
+h2{font-size:19.5px;margin: 35px 0 5px 20px;}
 /*header*/
 header .container{
     display:flex;
@@ -36,12 +36,10 @@ header  a:hover{
     font-size: 16px;
     font-weight: 500;
 }
-/*description*/
-#section-1 .description{
-    line-height: 30px;
-}
+
 #section-1 h1{
     font-size: 19.5px;
+    margin-bottom: 10px;
 }
 /*barre-de-recherche*/
 #section-1 .localisation i{
@@ -288,7 +286,7 @@ span.price{font-weight: 800;}
 }
 #section-3 h3{
     font-size: 14.5px;
-    margin: 12px 0 0 17px;
+    margin: 12px 0 10px 17px;
 }
 #section-3 .container .bloc{
     display: flex;
@@ -390,16 +388,16 @@ h4{margin-top: 25px;}
 #section-2 .right .bloc .description p{margin-top: 8px;}
 
 /*section-3*/
-#section-3 {padding: 10px; margin-top: 30px;}
+#section-3 {padding: 10px; margin-top: -20px;}
 #section-3 .container{ /* gros container */margin: 0 auto 90px auto;width: 100%;height: 1200px;display: flex;flex-direction: column; padding: 0px;}
 #section-3 .container .bloc h4{text-align: left;}    
 #section-3 .container .bloc{width: 100%;height: auto;border-radius: 20px; box-shadow: none; margin-bottom: 15px; }
-#section-3 .container .bloc-big{width: 100%; box-shadow: 0px 10px 10px -10px rgb(177, 177, 177); height: 190px;}
+#section-3 .container .bloc-big{width: 100%; box-shadow: 0px 10px 10px -10px rgb(177, 177, 177); height: 190px;margin-bottom: 25px;}
 #section-3 .container .bloc img{width: 100%;height: 150px;border-radius: 20px 20px 0 0;}
 /*sous bloc */
 #section-3 .container .bloc .sous-bloc-1 img{width: 100%;height: 150px;border-radius: 20px 20px 0 0;}#section-3 .container .bloc .sous-bloc-2 img{width: 100%;height: 150px;border-radius: 20px 20px 0 0;}#section-3 .container .bloc .sous-bloc-3 img{width: 100%;height: 150px;border-radius: 20px 20px 0 0;} #section-3 .container .bloc .sous-bloc-4 img{width: 100%;height: 150px;border-radius: 20px 20px 0 0;}
 #section-3 .sous-bloc-1{border-radius: 30px;box-shadow: 0px 10px 10px -10px rgb(177, 177, 177);height: 190px;border-radius: 30px;margin-bottom: 30px;}
-#section-3 .sous-bloc-2{border-radius: 30px;box-shadow: 0px 10px 10px -10px rgb(177, 177, 177);height: 190px;border-radius: 30px;margin-bottom: 30px;}
+#section-3 .sous-bloc-2{border-radius: 30px;box-shadow: 0px 10px 10px -10px rgb(177, 177, 177);height: 190px;border-radius: 30px;margin-bottom: 11px;}
 #section-3 .container .bloc .sous-bloc-3{border-radius: 30px;box-shadow: 0px 10px 10px -10px rgb(177, 177, 177);height: 190px;border-radius: 30px;margin:15px 0 20px 0;}
 #section-3 .container .bloc .sous-bloc-4{border-radius: 30px;box-shadow: 0px 10px 10px -10px rgb(177, 177, 177);height: 190px;border-radius: 30px;margin-bottom: 30px;}
 /*footer*/
@@ -422,7 +420,7 @@ footer .container {width: 100%;}
    header {padding: 10px; margin: 0 auto 5px auto;}
    header .container{display: flex; flex-direction: column; width: 100%; margin: 15px 0;}
    header img{margin: -15px 0 15px 20px;}
-   header .right{margin-left: -35px;}
+   header .right{margin-left: -39px;}
    header  a:hover{border-top: none;}
    header  a:hover{border-bottom: 3px solid #0065FC;}
 /*section-1*/
@@ -435,8 +433,8 @@ footer .container {width: 100%;}
 /*section-2*/
    #section-2{display: flex; flex-direction: column-reverse;}
    #section-2 .left{background-color: white;display: flex;flex-direction: column;width: 100%;height: 1500px; border-radius: 0px; padding: 0px;}
-   #section-2 .left .line-1-location{display: flex; flex-direction: column; margin: 20px auto 10px auto; padding:0px;}
-   #section-2 .left .line-1-location .bloc{width: 100%; height: 200px; margin: 15px 0px; box-shadow: 0px 10px 10px -10px rgb(163, 163, 163); border-radius: 20px;}
+   #section-2 .left .line-1-location{display: flex; flex-direction: column; margin: -10px auto 10px auto; padding:0px;}
+   #section-2 .left .line-1-location .bloc{width: 100%; height: 200px; margin: 15px 0px 15px -4px; box-shadow: 0px 10px 10px -10px rgb(163, 163, 163); border-radius: 20px;}
    #section-2 .left .line-1-location .bloc img{width: 100%; height: 130px;border-radius: 20px 20px 0 0;}
    #section-2 .right{height: 680px;width: 100%;margin: 0 auto 0 auto; border-radius: 0px;}
    #section-2 .right .container-bloc .bloc{background-color: white;width: 90%;height: 150px;margin: 17px auto; border: 2px solid rgb(233, 232, 232);}
@@ -444,7 +442,7 @@ footer .container {width: 100%;}
    #section-2 .right .bloc .description{margin-left: 20px;}
 
 /*footer*/
-    footer{width: 100%;height: 450px;}
+    footer{width: 100%;height: 465px;}
     footer .container{display: flex;flex-direction: column;margin-left: 0px;}
     footer .bloc-menu ul li{line-height: 23px;}
 }
